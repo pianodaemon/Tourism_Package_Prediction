@@ -1,15 +1,6 @@
 
-# complete the code: list all required packages with their exact versions
-# Hint: include pandas, huggingface_hub, streamlit, joblib, scikit-learn, xgboost, mlflow
-streamlit==1.43.2
-numpy>=1.26
-pandas>=2.1
-matplotlib>=3.8
-seaborn>=0.13.1
-scikit-learn>=1.2.2
-sklearn-pandas>=2.2.0
-joblib==1.4.2
-xgboost==2.1.4
-requests==2.32.4
-huggingface_hub>=1.23.0
-mlflow==3.0.1
+streamlit
+pandas
+joblib
+xgboost
+huggingface_hub
