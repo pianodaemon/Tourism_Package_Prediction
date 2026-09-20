@@ -1,0 +1,10 @@
+
+# complete the code: list all required packages with their exact versions
+# Hint: include pandas, huggingface_hub, streamlit, joblib, scikit-learn, xgboost, mlflow
+pandas==2.2.2
+huggingface_hub>=1.23.0
+streamlit==1.43.2
+joblib==1.4.2
+scikit-learn==1.6.0
+xgboost==2.1.4
+mlflow==3.0.1
