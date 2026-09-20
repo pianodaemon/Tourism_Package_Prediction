@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-
   register-dataset:
     runs-on: ubuntu-latest
     steps:
