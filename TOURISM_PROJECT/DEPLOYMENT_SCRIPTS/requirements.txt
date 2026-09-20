@@ -4,3 +4,6 @@ pandas
 joblib
 xgboost
 huggingface_hub
+scikit-learn
+sklearn-pandas
+joblib
