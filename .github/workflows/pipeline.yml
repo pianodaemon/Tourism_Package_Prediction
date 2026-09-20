@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Dependencies
-        run: pip install -r TOURISM_PROJECT/DEPLOYMENT_SCRIPTS/requirements.txt
+        run: pip install -r TOURISM_PROJECT/requirements.txt
       - name: Upload Dataset to Hugging Face Hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Dependencies
-        run: pip install -r TOURISM_PROJECT/DEPLOYMENT_SCRIPTS/requirements.txt
+        run: pip install -r TOURISM_PROJECT/requirements.txt
       - name: Run Data Preparation
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Dependencies
-        run: pip install -r TOURISM_PROJECT/DEPLOYMENT_SCRIPTS/requirements.txt
+        run: pip install -r TOURISM_PROJECT/requirements.txt
       - name: Model Building
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
